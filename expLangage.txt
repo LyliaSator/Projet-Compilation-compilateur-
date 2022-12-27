@@ -1,0 +1,32 @@
+import ISIL.lang ;
+import ISIL.io ;
+public class $ISILB {
+    Entier $x, $z,$i;
+    Reel $y,$c;
+    Entier @t_ab2[5];
+    CONST Entier $ak:=5;
+    CONST Chaine $l:="hello";
+
+
+
+  main(){
+    ##hello##
+      $x:=5;
+      $z:=5.5;
+      $c:= 5.6; 
+      $ak:=6;
+      $y:=4;
+      $y:= "hello";
+      In( "%d", $x);
+      In( "%s", $x);
+      Out("chaine %d", $x) ;
+      Out("chaine %d", $y) ;
+      For($i:=1 ;$i<10 ;$i++)
+        {$j:=$j/2 ;
+        $C:=$c + $j ;
+        }
+
+    
+   }
+ 
+}
